@@ -691,13 +691,16 @@
             color: #4a5568;
         }
         .contact-info a {
-            color: var(--accent-blue);
-            text-decoration: none;
+            color: #000;                 /* чёрный цвет */
+            text-decoration: none;        /* без подчёркивания */
+            border-bottom: none;          /* убираем линию */
             font-weight: 500;
-            border-bottom: 1px dotted var(--main-blue);
+        }
+        .contact-info a:hover {
+            color: var(--accent-blue);    /* при наведении — акцентный */
         }
 
-        /* ===== АДАПТИВНОСТЬ ===== */
+        /* ===== АДАПТИВНОСТЬ (уменьшены отступы) ===== */
         @media (max-width: 768px) {
             body { padding: 0; }
             
@@ -709,7 +712,7 @@
             .form-section,
             .contacts-section {
                 min-height: 100vh;
-                padding: 40px 16px;
+                padding: 20px 16px;       /* уменьшено с 40px */
             }
             
             .ticket {
@@ -820,7 +823,7 @@
         </p>
     </section>
 
-    <!-- СЕКЦИЯ 3: СЛАЙДЕР (исправлены пути и класс active) -->
+    <!-- СЕКЦИЯ 3: СЛАЙДЕР -->
     <section class="section slider-section">
         <div class="slider-wrapper">
             <img src="1.jpg" class="slide active" alt="Фото 1">
@@ -974,16 +977,16 @@
         </div>
     </section>
 
-    <!-- СЕКЦИЯ 8: КОНТАКТЫ + ПОЛАРОИДЫ (исправлены src) -->
+    <!-- СЕКЦИЯ 8: КОНТАКТЫ + ПОЛАРОИДЫ -->
     <section class="section contacts-section">
         <h2 class="contacts-title">Контакты</h2>
         <div class="polaroid-container">
             <div class="polaroid">
-                <img src="5.jpg" alt="Молодожены">
+                <img src="4.jpg" alt="Молодожены">
                 <div class="polaroid-caption">Александр</div>
             </div>
             <div class="polaroid">
-                <img src="4.jpg" alt="Молодожены">
+                <img src="5.jpg" alt="Молодожены">
                 <div class="polaroid-caption">Мария</div>
             </div>
         </div>
