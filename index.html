@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -79,7 +78,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 40px 20px;
+            padding: 30px 20px;
         }
         .ticket {
             width: 850px;
@@ -193,7 +192,7 @@
             align-items: center;
             max-width: 800px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 40px 20px;
             text-align: center;
         }
         .welcome-title {
@@ -213,7 +212,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 40px 20px;
+            padding: 30px 20px;
         }
         .slider-wrapper {
             position: relative;
@@ -252,7 +251,7 @@
         .prev-btn { left: 20px; }
         .next-btn { right: 20px; }
 
-        /* --- Космос --- */
+        /* --- Космос (полные стили) --- */
         .section-location {
             min-height: 100vh;
             display: flex;
@@ -419,54 +418,16 @@
             justify-content: center;
             max-width: 1200px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 40px 20px;
             text-align: center;
         }
-        .simple-timeline-title {
-            font-family: 'Great Vibes', cursive;
-            font-size: 55px;
-            color: var(--accent-blue);
-            margin-bottom: 40px;
-        }
-        .simple-timeline {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 30px;
-            position: relative;
-        }
-        .simple-node {
-            flex: 1 1 160px;
-            min-width: 140px;
-        }
-        .simple-icon-wrap {
-            width: 70px; height: 70px;
-            background: #fff;
-            border: 2px solid var(--main-blue);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
-        }
-        .simple-icon-wrap svg {
-            width: 36px; height: 36px;
-            stroke: var(--accent-blue);
-            stroke-width: 1.5;
-            fill: none;
-        }
-        .simple-time-val {
-            font-family: 'Cinzel', serif;
-            font-weight: 600;
-            color: var(--accent-blue);
-            font-size: 22px;
-            margin-bottom: 5px;
-        }
-        .simple-desc {
-            font-size: 14px;
-            color: var(--text-gray);
-        }
+        .simple-timeline-title { font-family: 'Great Vibes', cursive; font-size: 55px; color: var(--accent-blue); margin-bottom: 30px; }
+        .simple-timeline { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 25px; }
+        .simple-node { flex: 1 1 160px; min-width: 140px; }
+        .simple-icon-wrap { width: 70px; height: 70px; background: #fff; border: 2px solid var(--main-blue); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+        .simple-icon-wrap svg { width: 36px; height: 36px; stroke: var(--accent-blue); stroke-width: 1.5; fill: none; }
+        .simple-time-val { font-family: 'Cinzel', serif; font-weight: 600; color: var(--accent-blue); font-size: 22px; margin-bottom: 5px; }
+        .simple-desc { font-size: 14px; color: var(--text-gray); }
 
         /* --- Дресс-код --- */
         .dresscode-section {
@@ -475,41 +436,14 @@
             justify-content: center;
             max-width: 900px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 40px 20px;
             text-align: center;
         }
-        .dresscode-title {
-            font-family: 'Great Vibes', cursive;
-            font-size: 55px;
-            color: var(--accent-blue);
-            margin-bottom: 20px;
-        }
-        .dresscode-text {
-            font-size: 18px;
-            line-height: 1.8;
-            color: #666;
-            max-width: 700px;
-            margin: 0 auto 40px;
-        }
-        .palette {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-            margin: 40px 0;
-        }
-        .color-circle {
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.1);
-            border: 4px solid #fff;
-        }
-        .color-1 { background-color: #bbdefb; }
-        .color-2 { background-color: #64b5f6; }
-        .color-3 { background-color: #1e88e5; }
-        .color-4 { background-color: #ffe0b2; }
-        .color-5 { background-color: #ffccbc; }
+        .dresscode-title { font-family: 'Great Vibes', cursive; font-size: 55px; color: var(--accent-blue); margin-bottom: 20px; }
+        .dresscode-text { font-size: 18px; color: #666; margin-bottom: 30px; }
+        .palette { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+        .color-circle { width: 100px; height: 100px; border-radius: 50%; border: 4px solid #fff; box-shadow: 0 8px 20px rgba(0,0,0,0.1); }
+        .color-1 { background-color: #bbdefb; } .color-2 { background-color: #64b5f6; } .color-3 { background-color: #1e88e5; } .color-4 { background-color: #ffe0b2; } .color-5 { background-color: #ffccbc; }
 
         /* --- Анкета --- */
         .form-section {
@@ -518,265 +452,80 @@
             justify-content: center;
             max-width: 700px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 40px 20px;
         }
-        .form-title {
-            font-family: 'Great Vibes', cursive;
-            font-size: 55px;
-            color: var(--accent-blue);
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .form-wrapper {
-            background: #fff;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 15px 30px rgba(0,0,0,0.05);
-            text-align: left;
-        }
+        .form-title { font-family: 'Great Vibes', cursive; font-size: 55px; color: var(--accent-blue); text-align: center; margin-bottom: 30px; }
+        .form-wrapper { background: #fff; padding: 30px 25px; border-radius: 20px; box-shadow: 0 15px 30px rgba(0,0,0,0.05); text-align: left; }
         .input-group { margin-bottom: 25px; }
-        .form-label {
-            display: block;
-            font-size: 14px;
-            font-weight: 500;
-            margin-bottom: 10px;
-            color: #3a4a5a;
-            letter-spacing: 0.5px;
-        }
-        .form-input {
-            width: 100%;
-            padding: 14px 18px;
-            border: 1px solid #d9e2ec;
-            border-radius: 40px;
-            font-family: inherit;
-            font-size: 14px;
-            background-color: #f9fbfd;
-            transition: border-color 0.3s, box-shadow 0.3s;
-        }
-        .form-input:focus {
-            outline: none;
-            border-color: var(--main-blue);
-            box-shadow: 0 0 0 3px rgba(165, 200, 228, 0.2);
-        }
-        .radio-options { 
-            display: flex; 
-            flex-direction: column; 
-            gap: 14px; 
-        }
-        .radio-container {
-            display: block;
-            position: relative;
-            padding-left: 38px;
-            cursor: pointer;
-            font-size: 15px;
-            user-select: none;
-            color: #4a5568;
-        }
-        .radio-container input { 
-            position: absolute; 
-            opacity: 0; 
-            cursor: pointer; 
-        }
-        .checkmark {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 22px;
-            width: 22px;
-            background-color: #f0f4f8;
-            border: 1px solid #cbd5e0;
-            border-radius: 50%;
-        }
-        .radio-container:hover input ~ .checkmark { 
-            background-color: #e2e8f0; 
-        }
-        .radio-container input:checked ~ .checkmark {
-            background-color: var(--main-blue);
-            border-color: var(--main-blue);
-        }
-        .checkmark:after {
-            content: "";
-            position: absolute;
-            display: none;
-        }
-        .radio-container input:checked ~ .checkmark:after { 
-            display: block; 
-        }
-        .radio-container .checkmark:after {
-            top: 7px; left: 7px;
-            width: 8px; height: 8px;
-            border-radius: 50%;
-            background: white;
-        }
-        .submit-btn {
-            width: 100%;
-            padding: 16px;
-            background-color: var(--main-blue);
-            color: #fff;
-            border: none;
-            border-radius: 50px;
-            font-family: 'Cinzel', serif;
-            font-weight: 600;
-            font-size: 16px;
-            letter-spacing: 2px;
-            cursor: pointer;
-            transition: background 0.3s, transform 0.2s;
-            margin-top: 20px;
-        }
-        .submit-btn:hover {
-            background-color: var(--accent-blue);
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(93,138,168,0.2);
-        }
-        .submit-btn:active { transform: translateY(0); }
-        #form-success {
-            text-align: center;
-            color: var(--accent-blue);
-            margin-top: 20px;
-            font-weight: 500;
-            font-size: 18px;
-        }
+        .form-label { display: block; font-size: 14px; font-weight: 500; margin-bottom: 10px; color: #3a4a5a; }
+        .form-input { width: 100%; padding: 14px 18px; border: 1px solid #d9e2ec; border-radius: 40px; font-family: inherit; background: #f9fbfd; }
+        .radio-options { display: flex; flex-direction: column; gap: 12px; }
+        .radio-container { display: block; position: relative; padding-left: 38px; cursor: pointer; font-size: 15px; color: #4a5568; }
+        .radio-container input { position: absolute; opacity: 0; }
+        .checkmark { position: absolute; left: 0; top: 0; height: 22px; width: 22px; background: #f0f4f8; border: 1px solid #cbd5e0; border-radius: 50%; }
+        .radio-container input:checked ~ .checkmark { background: var(--main-blue); border-color: var(--main-blue); }
+        .checkmark:after { content: ""; position: absolute; display: none; top: 7px; left: 7px; width: 8px; height: 8px; border-radius: 50%; background: white; }
+        .radio-container input:checked ~ .checkmark:after { display: block; }
+        .submit-btn { width: 100%; padding: 16px; background: var(--main-blue); color: white; border: none; border-radius: 50px; font-family: 'Cinzel', serif; font-weight: 600; font-size: 16px; letter-spacing: 2px; cursor: pointer; transition: 0.3s; margin-top: 20px; }
+        .submit-btn:hover { background: var(--accent-blue); }
 
-        /* --- Контакты (полароид) --- */
+        /* --- Контакты --- */
         .contacts-section {
             display: flex;
             flex-direction: column;
             justify-content: center;
             max-width: 900px;
             margin: 0 auto;
-            padding: 60px 20px;
+            padding: 40px 20px 60px;
             text-align: center;
         }
-        .contacts-title {
-            font-family: 'Great Vibes', cursive;
-            font-size: 55px;
-            color: var(--accent-blue);
-            margin-bottom: 30px;
-        }
-        .polaroid-container {
-            display: flex;
-            justify-content: center;
-            gap: 30px;
-            flex-wrap: wrap;
-        }
-        .polaroid {
-            background: white;
-            padding: 15px 15px 40px;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-            border-radius: 4px;
-            width: 260px;
-            max-width: 100%;
-            transform: rotate(-2deg);
-            transition: transform 0.2s;
-        }
+        .contacts-title { font-family: 'Great Vibes', cursive; font-size: 55px; color: var(--accent-blue); margin-bottom: 30px; }
+        .polaroid-container { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; }
+        .polaroid { background: white; padding: 15px 15px 40px; box-shadow: 0 10px 20px rgba(0,0,0,0.1); border-radius: 4px; width: 260px; max-width: 100%; transform: rotate(-2deg); }
         .polaroid:nth-child(2) { transform: rotate(3deg); }
-        .polaroid:hover { transform: scale(1.02) rotate(0deg); }
-        .polaroid img {
-            width: 100%;
-            height: 240px;
-            object-fit: cover;
-            display: block;
-            border-radius: 2px;
-        }
-        .polaroid-caption {
-            margin-top: 15px;
-            font-family: 'Cinzel', serif;
-            font-size: 16px;
-            color: #3a4a5a;
-            letter-spacing: 1px;
-        }
-        .contact-info {
-            margin-top: 40px;
-            font-size: 18px;
-            color: #4a5568;
-        }
-        .contact-info a {
-            color: #000;                 /* чёрный цвет */
-            text-decoration: none;        /* без подчёркивания */
-            border-bottom: none;          /* убираем линию */
-            font-weight: 500;
-        }
-        .contact-info a:hover {
-            color: var(--accent-blue);    /* при наведении — акцентный */
-        }
+        .polaroid img { width: 100%; height: 240px; object-fit: cover; border-radius: 2px; }
+        .polaroid-caption { margin-top: 15px; font-family: 'Cinzel', serif; font-size: 16px; color: #3a4a5a; }
+        .contact-info { margin-top: 40px; font-size: 18px; color: #4a5568; }
+        .contact-info a { color: #000; text-decoration: none; border-bottom: none; font-weight: 500; }
+        .contact-info a:hover { color: var(--accent-blue); }
 
-        /* ===== АДАПТИВНОСТЬ (уменьшены отступы) ===== */
+        /* === АДАПТИВНОСТЬ (КОМПАКТНЫЕ ОТСТУПЫ) === */
         @media (max-width: 768px) {
             body { padding: 0; }
-            
-            .ticket-section,
-            .welcome-section,
-            .slider-section,
-            .simple-timeline-section,
-            .dresscode-section,
-            .form-section,
-            .contacts-section {
-                min-height: 100vh;
-                padding: 20px 16px;       /* уменьшено с 40px */
-            }
-            
-            .ticket {
-                flex-direction: column;
-                height: auto;
-                min-height: auto;
-            }
-            .barcode-section {
-                width: 100%;
-                border-left: none;
-                border-top: 2px dashed #e0e0e0;
-                padding: 20px;
-            }
-            .barcode {
-                width: 200px;
-                height: 60px;
-                background: repeating-linear-gradient(to right, #000, #000 2px, #fff 2px, #fff 4px, #000 4px, #000 7px, #fff 7px, #fff 9px, #000 9px, #000 13px, #fff 13px, #fff 15px);
-            }
+            .ticket-section { padding: 20px 16px; }
+            .welcome-section { padding: 30px 16px; }
+            .slider-section { padding: 20px 16px; }
+            .simple-timeline-section { padding: 30px 16px; }
+            .dresscode-section { padding: 30px 16px; }
+            .form-section { padding: 30px 16px; }
+            .contacts-section { padding: 30px 16px 50px; }
+            .section-location { padding: 60px 20px; }
+            .ticket { flex-direction: column; }
+            .barcode-section { width: 100%; border-left: none; border-top: 2px dashed #e0e0e0; padding: 20px; }
+            .barcode { width: 200px; height: 60px; background: repeating-linear-gradient(to right, #000, #000 2px, #fff 2px, #fff 4px, #000 4px, #000 7px, #fff 7px, #fff 9px, #000 9px, #000 13px, #fff 13px, #fff 15px); }
             .names { font-size: 42px; }
-            .content { padding: 60px 20px 30px; }
-            .timer { gap: 12px; }
-
-            .slider-wrapper { height: 350px; }
+            .content { padding: 50px 20px 30px; }
+            .slider-wrapper { height: 300px; }
             .slider-btn { width: 40px; height: 40px; }
-
-            .section-location {
-                flex-direction: column;
-                text-align: center;
-                gap: 40px;
-                padding: 80px 20px;
-            }
+            .planet-icon { width: 200px; }
+            .location-title { font-size: 45px; }
             .location-text { text-align: center; }
-            .planet-icon { width: 220px; }
-            .location-title { font-size: 48px; }
-
-            .simple-timeline {
-                flex-direction: column;
-                align-items: center;
-            }
-            .simple-node { max-width: 280px; width: 100%; }
-
+            .simple-timeline { flex-direction: column; align-items: center; }
+            .simple-node { max-width: 280px; }
             .color-circle { width: 70px; height: 70px; }
-
-            .form-wrapper { padding: 30px 20px; }
-            .radio-options { gap: 12px; }
-
+            .form-wrapper { padding: 25px 18px; }
             .polaroid-container { flex-direction: column; align-items: center; }
             .polaroid { width: 260px; transform: none !important; }
-
             .welcome-title { font-size: 45px; }
-            .simple-timeline-title,
-            .dresscode-title,
-            .form-title,
-            .contacts-title { font-size: 45px; }
+            .simple-timeline-title, .dresscode-title, .form-title, .contacts-title { font-size: 45px; }
         }
 
         @media (max-width: 480px) {
             .header { padding: 0 20px; font-size: 12px; }
             .names { font-size: 36px; }
             .value { font-size: 20px; }
-            .timer-val { font-size: 18px; }
-            .slider-wrapper { height: 280px; }
-            .planet-icon { width: 180px; }
-            .location-title { font-size: 40px; }
+            .slider-wrapper { height: 250px; }
+            .planet-icon { width: 160px; }
         }
     </style>
 </head>
